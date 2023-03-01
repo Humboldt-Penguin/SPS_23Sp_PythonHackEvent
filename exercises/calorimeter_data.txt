@@ -1,0 +1,25 @@
+---START HEADER---
+
+DESCRIPTION:
+
+The πM1 beam line at the Paul Scherrer Institute has an electromagnetic calorimeter which measures the energy particles moving along the beam line. When high-energy muons/pions/electrons enter the calorimeter, they initiate a “particle shower”, a cascade of lower-energy secondary particles which deposit their energy into the calorimeter.
+
+The calorimeter is an 8 by 8 array of independently read out crystals, which output QDC (Charge-to-Digital Converter) values. 
+
+
+DATA FORMAT:
+
+Calorimeter coordinates take form (x,y), ranging from (0,0) [bottom left] to (7,0) [bottom right] to (0,7) [top left] to (7,7) [top right]. 
+
+Each row has 64 data vales. Each number represents: 
+    event# | (0,0) | (0,1) | (0,2) | ... | (0,7) | (1,0) | (1,1) | ... | (1,7) | (2,0) | (2,1) | ... | (7,7) 
+
+
+---END HEADER---
+
+
+
+
+---START DATA---
+
+1 0.4 2.2 2.5 
